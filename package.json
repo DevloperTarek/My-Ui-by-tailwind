@@ -1,0 +1,29 @@
+{
+  "name": "my-ui-by-tailwind",
+  "version": "1.0.0",
+  "description": "My tailwind personal portfolio,blog,ecommerce,shopping,restrurant and etc project",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/style.css -o ./output/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevloperTarek/My-Ui-by-tailwind.git"
+  },
+  "keywords": [
+    "tailwind",
+    "tailwind css",
+    "ui of tailwind",
+    "smart framework",
+    "react useable framework"
+  ],
+  "author": "Tarek Hossain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevloperTarek/My-Ui-by-tailwind/issues"
+  },
+  "homepage": "https://github.com/DevloperTarek/My-Ui-by-tailwind#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.15"
+  }
+}

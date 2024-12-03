@@ -1,1 +1,38 @@
+/* //google fonts for jost & lobster */
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Lobster&display=swap');
+/* <---=====-----> */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+body{
+     @apply bg-green-950 text-white font-Jost tracking-wider;
+}
+section{
+     @apply py-20 py-28;
+}
+h1{
+     @apply text-3xl md:text-4xl xl:text-5xl font-bold;
+}
+.nav-link{
+     @apply text-lg font-bold duration-300 font-Lobster;
+}
+.nav-link:hover{
+     @apply text-yellow-700;
+}
+/* button */
+.btn{
+     @apply shadow-sm shadow-yellow-100 border-0 bg-yellow-500 text-white px-[10px] py-[5px] rounded-md inline-block duration-300 cursor-pointer;
+}
+.btn span{
+     @apply text-white text-[16px] uppercase shrink-0;
+}
+.btn-trans{
+     @apply bg-transparent;
+}
+.btn:hover{
+     @apply opacity-50
+}
+.btn-trans:hover{
+     @apply bg-yellow-500 opacity-100
+}
