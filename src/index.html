@@ -20,7 +20,6 @@
      <!-- preloader end -->
 
      <!-- header -->
-
      <header id="navbar" class="bg-green-950 fixed w-full top-0 left-0 z-50 shadow-sm shadow-green-900">
           <nav class="container flex items-center justify-between h-16 sm:h-20">
                <!-- logo area -->
@@ -31,6 +30,7 @@
                <div id="nav-menu" class="lg:static lg:min-h-fit lg:w-auto lg:bg-transparent absolute top-0 left-[-120%] min-h-[80vh] w-full flex items-center justify-center bg-green-950/80 backdrop-blur-sm duration-300 overflow-hidden">
                     <ul class="flex flex-col gap-5 lg:flex-row">
                          <li><a href="#home" class="nav-link">Home</a></li>
+                         <li><a href="#service" class="nav-link">Service</a></li>
                          <li><a href="#about" class="nav-link">About</a></li>
                          <li><a href="#popular" class="nav-link">Popular</a></li>
                          <li><a href="#review" class="nav-link">Reviews</a></li>
@@ -53,15 +53,13 @@
                <!-- menu area end -->
           </nav>
      </header>
-
      <!-- header end -->
 
      <!-- main area -->
-
      <main>
 
           <!-- home page -->
-          <section id="home" class="relative">
+          <section id="home" class="relative pb-80">
                <!-- drop-1 -->
                <div class="w-1/4 h-full bg-red-700 opacity-70 runded-full  blur-3xl absolute top-0 left-1/2 after:"></div>
                <!-- drop-2 -->
@@ -71,7 +69,7 @@
                <!-- drop-4 -->
                <div class="w-[200px] h-[200px] rounded-[100%] bg-red-600 opacity-100  blur-md absolute right-[300px] skew-x-[80px] top-20 rotate-180"></div>
                <div class="container">
-                    <div class="flex flex-col gap-5 lg:flex-row">
+                    <div class="flex flex-col gap-5 lg:flex-row lg:pt-[150px]">
                          <!-- content area -->
                          <div class="w-full space-y-5 xl:w-1/2 xl:pt-[150px]">
                               <h1>
@@ -123,9 +121,27 @@
                     </div>
                </div>
           </section>
-
+          <!-- home page end -->
+          <!-- service page -->
+          <section id="service" class="relative z-20 bg-[url('../assets/img/home.png')] bg-white bg-cover bg-center after:absolute after:top-0 after:left-0 after:w-full after:h-full after:bg-black after:content-[''] after:opacity-90 after:-z-10">
+               <div class="container">
+                    <div class="grid grid-col-4 sm:grid-col-1 md:grid-col-2 lg:grid-col-3">
+                         <!-- single item 1 -->
+                         <div class="relative z-10">
+                              <div class="bg-neutral-900 shadow px-4 py-5">
+                                   <img src="../assets/img/plant-1.png" alt="service-1" class="max-w-16 bg-white shadow rounded-tr-[50%] rounded-bl-[50%]">
+                                   <div>
+                                        <h4>Labore obcaecati nisi repellendus</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos repellat facilis unde, commodi pariatur</p>
+                                        <a href="#" class="btn">See More</a>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </section>
+          <!-- service page end -->
      </main>
-
      <!-- main area -->
 
      <!-- js files -->

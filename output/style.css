@@ -562,8 +562,8 @@ video {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 @media (min-width: 340px){
@@ -692,6 +692,10 @@ video {
   display: flex;
 }
 
+.grid{
+  display: grid;
+}
+
 .h-16{
   height: 4rem;
 }
@@ -710,6 +714,10 @@ video {
 
 .h-full{
   height: 100%;
+}
+
+.h-96{
+  height: 24rem;
 }
 
 .min-h-\[80vh\]{
@@ -738,6 +746,10 @@ video {
 
 .w-full{
   width: 100%;
+}
+
+.max-w-16{
+  max-width: 4rem;
 }
 
 .rotate-180{
@@ -839,6 +851,42 @@ video {
   border-radius: 0.5rem;
 }
 
+.rounded-bl-md{
+  border-bottom-left-radius: 0.375rem;
+}
+
+.rounded-tr-md{
+  border-top-right-radius: 0.375rem;
+}
+
+.rounded-bl-xl{
+  border-bottom-left-radius: 0.75rem;
+}
+
+.rounded-tr-xl{
+  border-top-right-radius: 0.75rem;
+}
+
+.rounded-tr-\[30px\]{
+  border-top-right-radius: 30px;
+}
+
+.rounded-tr-\[50\%\]{
+  border-top-right-radius: 50%;
+}
+
+.rounded-bl-\[40px\]{
+  border-bottom-left-radius: 40px;
+}
+
+.rounded-bl-\[50px\]{
+  border-bottom-left-radius: 50px;
+}
+
+.rounded-bl-\[50\%\]{
+  border-bottom-left-radius: 50%;
+}
+
 .border-0{
   border-width: 0px;
 }
@@ -865,6 +913,42 @@ video {
 .bg-red-700{
   --tw-bg-opacity: 1;
   background-color: rgb(185 28 28 / var(--tw-bg-opacity, 1));
+}
+
+.bg-white{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.bg-neutral-900{
+  --tw-bg-opacity: 1;
+  background-color: rgb(23 23 23 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[url\(\'\.\.\/assets\/img\/home\.png\'\)\]{
+  background-image: url('../assets/img/home.png');
+}
+
+.bg-cover{
+  background-size: cover;
+}
+
+.bg-center{
+  background-position: center;
+}
+
+.px-4{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-5{
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.pb-80{
+  padding-bottom: 20rem;
 }
 
 .font-Lobster{
@@ -927,6 +1011,12 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.shadow{
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 .shadow-green-900{
   --tw-shadow-color: #14532d;
   --tw-shadow: var(--tw-shadow-colored);
@@ -967,8 +1057,15 @@ body{
 }
 
 section{
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+@media (min-width: 540px){
+  section{
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
 }
 
 h1{
@@ -1049,6 +1146,73 @@ h1{
   opacity: 1;
 }
 
+.after\:absolute::after{
+  content: var(--tw-content);
+  position: absolute;
+}
+
+.after\:left-0::after{
+  content: var(--tw-content);
+  left: 0px;
+}
+
+.after\:top-0::after{
+  content: var(--tw-content);
+  top: 0px;
+}
+
+.after\:-z-10::after{
+  content: var(--tw-content);
+  z-index: -10;
+}
+
+.after\:h-full::after{
+  content: var(--tw-content);
+  height: 100%;
+}
+
+.after\:w-full::after{
+  content: var(--tw-content);
+  width: 100%;
+}
+
+.after\:bg-gray-600::after{
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(75 85 99 / var(--tw-bg-opacity, 1));
+}
+
+.after\:bg-black::after{
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
+}
+
+.after\:opacity-20::after{
+  content: var(--tw-content);
+  opacity: 0.2;
+}
+
+.after\:opacity-30::after{
+  content: var(--tw-content);
+  opacity: 0.3;
+}
+
+.after\:opacity-50::after{
+  content: var(--tw-content);
+  opacity: 0.5;
+}
+
+.after\:opacity-90::after{
+  content: var(--tw-content);
+  opacity: 0.9;
+}
+
+.after\:content-\[\'\'\]::after{
+  --tw-content: '';
+  content: var(--tw-content);
+}
+
 .hover\:scale-110:hover{
   --tw-scale-x: 1.1;
   --tw-scale-y: 1.1;
@@ -1120,6 +1284,10 @@ h1{
 
   .lg\:pt-5{
     padding-top: 1.25rem;
+  }
+
+  .lg\:pt-\[150px\]{
+    padding-top: 150px;
   }
 }
 
