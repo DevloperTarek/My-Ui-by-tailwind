@@ -173,33 +173,34 @@
           <!-- service page end -->
           <!-- about section area -->
           <section id="about" class="bg-green-950 relative z-30">
+               <div id="drop-1" class="w-[400px] h-[450px] md:hidden sm:hidden bg-white absolute left-[25%] top-[30%] blur-3xl rounded-full"></div>
+               <div class="absolute top-20% right-[30%] -z-10 rotate-[240deg] opacity-35">
+                    <img src="/assets/img/leaf-1.png" alt="small-img/leaf-png" class="h-[700px]">
+               </div>
+               <div class="absolute rotate-[45deg] top-[40%] left-[70%] animate__animated animate__fadeInRightaniamte__slow animate__delay-2s">
+                    <img src="/assets/img/plant-2.png" alt="small-img/plant-2-png" class="h-[700px] -z-10 relative opacity-30">
+               </div>
                <div class="container">
-                    <div class="flex items-center gap-32">
+                    <div class="flex items-center flex-col lg:flex-row lg:gap-32 gap-32">
                          <!-- img area -->
                          <div>
-                              <div class="min-w-96 relative z-20 h-[600px] after:absolute after:top-0 after:left-0 after:w-full after:h-full after:content:('') after:bg-green-950 after:opacity-90 after:z-10 after:duration-200 hover:after:opacity-0 w-1/2">
-                                   <img src="/assets/img/review-3.jpg" alt="reviewr-img" class="h-full w-full object-cover">
+                              <div class="min-w-96 relative z-20 h-[600px] after:absolute after:top-0 after:left-0 after:w-full after:h-full after:content:('') after:bg-green-950 after:opacity-90 after:scale-60 after:duration-200 hover:after:scale-0 w-1/2 duration-200 WOW animate__animated animate__wobble animate__fast animate__delay-2s">
+                                   <img src="/assets/img/review.png" alt="reviewr-img" class="h-full w-full object-cover">
                                    <div class="absolute bottom-0 left-0">
                                         <img src="/assets/img/floral-1.png" alt="small-img/floral-1-png" class="max-w-32">
                                    </div>
-                                   <!-- <div class="absolute -top-20 -right-96 -z-10 rotate-[240deg]">
-                                        <img src="/assets/img/leaf-1.png" alt="small-img/leaf-png" class="max-w-16">
-                                   </div>
-                                   <div class="absolute -top-20 -left-[100%] -z-10 rotate-[360deg]">
-                                        <img src="/assets/img/plant-2.png" alt="small-img/plant-2-png" class="mx-w-16">
-                                   </div> -->
                               </div>
                          </div>
                          <!-- img area end -->
                          <!-- content area -->
                          <div>
-                              <div>
-                                   <h1 class="text-5xl text-slate-200 font-Lobster font-extrabold leading-tight tracking-wider uppercase mb-[20px] addAnWhiteLine">About Us</h1>
+                              <div class="animate__animated animate__fadeInLeft aniamte__slow animate__delay-2s">
+                                   <h1 class="text-5xl text-slate-200 font-Lobster font-extrabold leading-tight tracking-wider uppercase mb-[20px] addAnWhiteLine sm:after:hidden lg:after:block md:after:flex">About Us</h1>
                               </div>
                               <div>
-                                   <p class="text-sm font-Lobster font-light text-slate-300 leading-snug tracking-widest mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit magnam possimus sunt tempore quia harum eos aliquid deserunt id aperiam odio illum cum maxime laudantium earum quidem nemo nisi culpa, ipsum omnis voluptatibus distinctio explicabo assumenda architecto. Vitae, modi perferendis soluta quos non sit odit alias officia rem? Harum dolore fugit animi quae a molestias minima.</p>
-                                   <p class="text-sm font-Lobster font-light text-slate-300 leading-snug tracking-widest mb-5"> Vel autem saepe nesciunt doloremque tenetur cupiditate doloribus eius ex totam dolores laboriosam rerum eveniet, fugiat laudantium, fugit accusamus. Dignissimos, optio impedit.</p>
-                                   <a href="#" class="btn">About More</a>
+                                   <p class="text-sm font-Lobster font-light text-slate-300 leading-snug tracking-widest mb-5 animate__animated animate__fadeInUp aniamte__slow animate__delay-2s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit magnam possimus sunt tempore quia harum eos aliquid deserunt id aperiam odio illum cum maxime laudantium earum quidem nemo nisi culpa, ipsum omnis voluptatibus distinctio explicabo assumenda architecto. Vitae, modi perferendis soluta quos non sit odit alias officia rem? Harum dolore fugit animi quae a molestias minima.</p>
+                                   <p class="text-sm font-Lobster font-light text-slate-300 leading-snug tracking-widest mb-5 animate__animated animate__fadeInUp aniamte__slow animate__delay-2s"> Vel autem saepe nesciunt doloremque tenetur cupiditate doloribus eius ex totam dolores laboriosam rerum eveniet, fugiat laudantium, fugit accusamus. Dignissimos, optio impedit.</p>
+                                   <a href="#" class="btn animate__animated animate__fadeInUp aniamte__fast animate__delay-3s">About More</a>
                               </div>
                          </div>
                          <!-- content area -->
@@ -207,6 +208,73 @@
                </div>
           </section>
           <!-- about section area end -->
+          <!-- featured section -->
+          <section id="features" class="bg-gray-300 relative z-10">
+               <!-- shape 1 -->
+               <div class="absolute -top-24 -left-20 -rotate-90 opacity-85 -z-10">
+                    <img src="/assets/img/leaf-3.png" alt="shape-one" class="max-w-[540px]">
+               </div>
+               <div class="container">
+                    <div class="WOW animate__animated animate__fadeInLeft animate__fast animate__delay-1s">
+                         <h2 class="section-title text-3xl text-black uppercase tracking-wider relative text-center font-bold font-Jost duration-300">Our Features</h2>
+                    </div>
+                    <!-- features item group -->
+                    <div class="grid sm:grid-cols-1 lg:grid-cols-4 lg:gap-[30px] sm:gap-[140px] mt-[200px]">
+                         <!-- single feature 1-->
+                         <div class="relative z-10 bg-slate-200 rounded-[30px] hover:shadow-shadow-dark min-h-[300px] duration-300 hover:-translate-y-5 WOW animate__animated animate__fadeInTopLeft animate__fast animate__delay-2s">
+                              <div class="absolute -top-[160px] left-[50%] translate-x-[-50%]">
+                                   <img src="/assets/img/cart-1.png" alt="feature-1" class="max-w-60">
+                              </div>
+                              <!-- content area -->
+                              <div class="px-4 pt-20 pb-4">
+                                   <h4 class="text-3xl text-slate-700 leading-tight mb-8 capitalize font-Lobster font-bold">Lush Green Leaves</h4>
+                                   <p class="text-sm font-Lobster leading-5 mb-4 text-slate-800">Lush Green Leaves" highlights the vitality and health of a tree's foliage Vibrant green color signifies the health and photosynthetic efficiency of the tree.</p>
+                                   <a href="#" class="btn">Read More</a>
+                              </div>
+                         </div>
+                         <!-- single feature 2-->
+                         <div class="relative z-10 bg-slate-200 rounded-[30px] hover:shadow-shadow-dark min-h-[300px] duration-300 hover:-translate-y-5 WOW animate__animated animate__fadeInLeft animate__fast animate__delay-1s">
+                              <div class="absolute -top-[160px] left-[50%] translate-x-[-50%]">
+                                   <img src="/assets/img/cart-1.png" alt="feature-1" class="max-w-60">
+                              </div>
+                              <!-- content area -->
+                              <div class="px-4 pt-20 pb-4">
+                                   <h4 class="text-3xl text-slate-700 leading-tight mb-8 capitalize font-Lobster font-bold">Lush Green Leaves</h4>
+                                   <p class="text-sm font-Lobster leading-5 mb-4 text-slate-800">Lush Green Leaves" highlights the vitality and health of a tree's foliage Vibrant green color signifies the health and photosynthetic efficiency of the tree.</p>
+                                   <a href="#" class="btn">Read More</a>
+                              </div>
+                         </div>
+                         <!-- single feature 3-->
+                         <div class="relative z-10 bg-slate-200 rounded-[30px] hover:shadow-shadow-dark min-h-[300px] duration-300 hover:-translate-y-5 WOW animate__animated animate__fadeInTopRight animate__fast animate__delay-2s">
+                              <div class="absolute -top-[160px] left-[50%] translate-x-[-50%]">
+                                   <img src="/assets/img/cart-1.png" alt="feature-1" class="max-w-60">
+                              </div>
+                              <!-- content area -->
+                              <div class="px-4 pt-20 pb-4">
+                                   <h4 class="text-3xl text-slate-700 leading-tight mb-8 capitalize font-Lobster font-bold">Lush Green Leaves</h4>
+                                   <p class="text-sm font-Lobster leading-5 mb-4 text-slate-800">Lush Green Leaves" highlights the vitality and health of a tree's foliage Vibrant green color signifies the health and photosynthetic efficiency of the tree.</p>
+                                   <a href="#" class="btn">Read More</a>
+                              </div>
+                         </div>
+                         <!-- single feature 4-->
+                         <div class="relative z-10 bg-slate-200 rounded-[30px] hover:shadow-shadow-dark min-h-[300px] duration-300 hover:-translate-y-5 WOW animate__animated animate__fadeInRight animate__fast animate__delay-2s">
+                              <div class="absolute -top-[160px] left-[50%] translate-x-[-50%]">
+                                   <img src="/assets/img/cart-1.png" alt="feature-1" class="max-w-60">
+                              </div>
+                              <!-- content area -->
+                              <div class="px-4 pt-20 pb-4">
+                                   <h4 class="text-3xl text-slate-700 leading-tight mb-8 capitalize font-Lobster font-bold">Lush Green Leaves</h4>
+                                   <p class="text-sm font-Lobster leading-5 mb-4 text-slate-800">Lush Green Leaves" highlights the vitality and health of a tree's foliage Vibrant green color signifies the health and photosynthetic efficiency of the tree.</p>
+                                   <a href="#" class="btn">Read More</a>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </section>
+          <!-- featured section end -->
+          <!-- testimonials section -->
+          <section id="testimonials" class="relative z-20 after:absolute after:top-0 after:left-0 after:w-full after:h-full after:content-[''] after:bg-[url('/assets/img/home.png')] bg-no-repeat bg-cover bg-center h-80"></section>
+          <!-- testimonials section end -->
      </main>
      <!-- main area -->
 

@@ -47,3 +47,9 @@ h1{
 .addAnWhiteLine{
      @apply relative block after:absolute after:top-1/2 after:-mt-[2px] after:left-[280px] after:content-[''] after:w-64 after:h-[5px] after:bg-white after:rounded-lg 
 }
+html,body{
+     @apply overflow-x-hidden
+}
+.section-title{
+     @apply relative z-10 duration-300 after:absolute after:content-[''] after:top-1/2 after:-mt-[2px] after:left-[65%] after:w-[120px] after:h-1 after:bg-slate-500
+}

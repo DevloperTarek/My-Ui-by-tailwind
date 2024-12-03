@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     // responsive screen for mobile,tablet,desktop,etc
     screens:{
-      'sm':'340px',
+      'sm':'320px',
       'md':'540',
       'lg':'992px',
       'xl':'1024px',
@@ -15,7 +15,7 @@ module.exports = {
       boxShadow:{
         'shadow-light':'0 17px 20px 0 rgba(255, 255, 255, .2)',
         'shadow-print':'0 0 20px 0 rgba(120,0,255,.4)',
-        'shadow-dark':'0 0 20px 0 rgba(0,0,0, .4)'
+        'shadow-dark':'0 10px 20px 0 rgba(0,0,0, .1)'
       },
     },
     // container customize
