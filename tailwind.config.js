@@ -5,11 +5,19 @@ module.exports = {
     // responsive screen for mobile,tablet,desktop,etc
     screens:{
       'sm':'340px',
-      'md':'540px',
-      'lg':'768px',
-      'xl':'1170px'
+      'md':'540',
+      'lg':'992px',
+      'xl':'1024px',
+      'xxl':'1280px'
     },
-    extend: {},
+    extend: {
+      // box shadow
+      boxShadow:{
+        'shadow-light':'0 17px 20px 0 rgba(255, 255, 255, .2)',
+        'shadow-print':'0 0 20px 0 rgba(120,0,255,.4)',
+        'shadow-dark':'0 0 20px 0 rgba(0,0,0, .4)'
+      },
+    },
     // container customize
     container:{
       center:true,

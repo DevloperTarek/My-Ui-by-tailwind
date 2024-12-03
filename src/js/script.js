@@ -1,3 +1,5 @@
+// wow js
+new WOW().init();
 // toggle button
 const navMenu = document.querySelector('#nav-menu')
 const navLinks = document.querySelectorAll('.nav-link')

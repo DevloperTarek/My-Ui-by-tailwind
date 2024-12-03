@@ -4,12 +4,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* animate css files */
+
 
 body{
      @apply bg-green-950 text-white font-Jost tracking-wider;
 }
 section{
-     @apply py-20 md:py-28;
+     @apply py-32 md:py-32;
 }
 h1{
      @apply text-3xl md:text-4xl xl:text-5xl font-bold;
@@ -31,8 +33,17 @@ h1{
      @apply bg-transparent;
 }
 .btn:hover{
-     @apply opacity-50
+     @apply opacity-50;
 }
 .btn-trans:hover{
-     @apply bg-yellow-500 opacity-100
+     @apply bg-yellow-500 opacity-100;
+}
+/* full container */
+.container-fluid{
+     @apply max-w-full px-[80px] py-0
+}
+
+/* white line */
+.addAnWhiteLine{
+     @apply relative block after:absolute after:top-1/2 after:-mt-[2px] after:left-[280px] after:content-[''] after:w-64 after:h-[5px] after:bg-white after:rounded-lg 
 }
