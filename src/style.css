@@ -53,3 +53,6 @@ html,body{
 .section-title{
      @apply relative z-10 duration-300 after:absolute after:content-[''] after:top-1/2 after:-mt-[2px] after:left-[65%] after:w-[120px] after:h-1 after:bg-slate-500
 }
+.overllay-section{
+     @apply after:absolute after:top-0 after:left-0 after:w-full after:h-full after:bg-green-950 after:content-[''] after:opacity-40 after:-z-10
+}
